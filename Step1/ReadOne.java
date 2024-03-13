@@ -11,8 +11,8 @@ public class ReadOne
          */
         try {
             // Create the Scanner object using the file
-            // as input
-            Scanner fileIn = new Scanner(new File("input.txt"));
+            File start = new File(System.getProperty("user.dir"));
+            Scanner fileIn = new Scanner(new File("Step1/input.txt"));
             
             /* Loop while the file still has lines.
              * .hasNext() looks to see if a line exists
