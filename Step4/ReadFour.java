@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
 
-public class ReadFour {
+ public class ReadFour {
 
     /**
      * Yes, you can look at the other
